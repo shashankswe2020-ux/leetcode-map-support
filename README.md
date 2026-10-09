@@ -15,6 +15,10 @@
   <a href="https://github.com/shashankswe2020-ux/leetcode-map-support/issues/new?template=feature_request.yml"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-idea-dark.svg"><img alt="Suggest a feature" src="assets/btn-idea-light.svg" height="44"></picture></a>
 </p>
 
+<p align="center">
+  <a href="https://buymeacoffee.com/shashanksw9"><img alt="Buy me a coffee" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="44"></a>
+</p>
+
 LeetCode Map is a Chrome extension for practising on LeetCode. Open a problem, click the icon, and it shows you the problems that use the same idea: easier ones to warm up with when you're stuck, and harder ones to try once you've solved it.
 
 This repository is where you report bugs and ask for features. The extension's source code isn't public.
