@@ -1,0 +1,58 @@
+name: Bug report
+description: Something in LeetCode Map isn't working the way it should.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. The problem you were on is the most useful detail, because most bugs only happen on certain problems.
+  - type: input
+    id: problem
+    attributes:
+      label: Which problem were you on?
+      description: Paste the LeetCode link, or the problem number.
+      placeholder: https://leetcode.com/problems/two-sum/
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you click, and what did you see?
+      placeholder: I clicked the icon and the map stayed on "Loading…".
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: false
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: A screenshot of the popup helps a lot. Drag it into this box.
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: Extension version
+      description: Go to chrome://extensions and find the number under LeetCode Map.
+      placeholder: "1.2.1"
+    validations:
+      required: false
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS
+        - Windows
+        - Linux
+        - ChromeOS
+        - Other
+    validations:
+      required: false

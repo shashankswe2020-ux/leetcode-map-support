@@ -1,0 +1,38 @@
+name: Feature request
+description: Suggest an idea to make LeetCode Map more useful.
+title: "[Idea] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before you post, please check the [existing requests](https://github.com/shashankswe2020-ux/leetcode-map-support/issues?q=is%3Aissue+label%3Aenhancement). If your idea is already there, add a 👍 to it instead.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Describe what you were practising and where the extension got in the way or fell short.
+      placeholder: When I finish a Medium, I want to know which Hard problem to try next.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help?
+      description: Your idea for how it could work. Rough is fine.
+    validations:
+      required: false
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part of the extension is this about?
+      options:
+        - The map
+        - The list
+        - Next problem
+        - Filters
+        - Tracking solved problems
+        - Search
+        - Something new
+    validations:
+      required: false

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Read the privacy policy
+    url: https://gist.github.com/shashankswe2020-ux/00599fca1a28a0aa4af5f52600f847d9
+    about: What LeetCode Map stores and what it sends.
+  - name: Leave a review on the Chrome Web Store
+    url: https://chromewebstore.google.com/detail/leetcode-map/hbponnlnmcomlbplhcbhfaeckbnngdim/reviews
+    about: Enjoying LeetCode Map? A review helps other people find it.
